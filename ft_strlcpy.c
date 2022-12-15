@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 18:30:48 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/04 07:44:34 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 19:30:46 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,16 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	i++;
 	return (i);
 }
+
+/*
+int main()
+{
+    char dest[10] = "ola";
+    char src[10] = "tudo bem";
+    ft_strlcpy(dest, src, 10);
+    printf("%s\n", dest);
+}
+*/
+//copia src para dest
+//Funciona como strncpy acaba sempre com \0
+//copia size - 1 elementos e para garantir o \0 no final

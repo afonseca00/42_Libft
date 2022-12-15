@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 04:17:45 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/17 05:30:45 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/12 15:47:44 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	lst = 0;
 }
+
+//apaga tudo
+//vai dar free a lista
+//"return ;" serve para sair da funcao

@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 12:59:01 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/03 13:54:52 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/13 17:17:12 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,12 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
 }
+
+/*
+int main ()
+{
+   printf(" %d\n", ft_strncmp("abcdefg", "abcdfwe", 10));
+   printf(" %d\n", ft_strncmp("abcdefg", "abcdefg", 10));
+}
+*/
+//compara ate n elementos ou ate str1 ou str2 acabar

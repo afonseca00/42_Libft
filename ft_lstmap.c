@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 04:24:59 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/17 04:44:09 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/12 15:50:41 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+
+//recebe a funcao e aplica a em todo o conteudo da list
+//e alocao 
+//se a memoria tenha sido mal alocada elimina a list e return null

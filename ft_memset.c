@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 18:56:14 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/03 12:08:32 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 19:12:56 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,15 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+
+/*
+int	main(void)
+{
+	char	*str;
+
+	str = strdup("ola alex");
+	ft_memset(str, 'a', 10);
+	printf("%s\n", str);
+}
+*/
+//vai substituir n bytes do s por o que queremos neste caso a

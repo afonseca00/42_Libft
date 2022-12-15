@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 15:53:27 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/16 18:06:15 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/12 15:31:59 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,7 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	}
 	*lst = new;
 }
+
+//**lst list de liked lists
+//adiciona o elemento no inico
+//new->aponta para o primeiro elemento

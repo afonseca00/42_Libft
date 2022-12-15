@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 03:40:39 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/17 03:44:42 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 23:24:31 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	aux = ft_lstlast(*lst);
 	aux->next = new;
 }
+
+//adiciona um elemento no final da linked list
+//coloca o aux->next a apontar para o new

@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 07:56:10 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/04 10:17:09 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/10 13:20:15 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,17 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
+
+/*
+int main () {
+  const char bi[20] = "ola tudo bem";
+  const char li[10] = "tudo";
+  char *result;
+
+  result = ft_strnstr(bi, li, 15);
+  printf("%s\n", result);
+  return(0);
+}
+*/
+//procura o little dentro do big ate len
+//caso encontre retorna big desde o elemento de little

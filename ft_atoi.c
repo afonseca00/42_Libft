@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 09:11:15 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/04 11:44:03 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 22:23:50 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,18 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
+
+/*
+int main()
+{
+   char str[] = "47/5a";
+   int val = ft_atoi(str);
+   printf ("%d ", val);
+   return 0;
+}
+*/
+//esta funcao vai transformar char num int sempre que possivel
+//se não for possivel retorna 0
+//Verifica se temos um white spaces ou nao
+//Esta funcao transforma um inteiro de base 10
+//numa string com os algarismos do inteiro de base 10

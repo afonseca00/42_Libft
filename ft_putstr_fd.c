@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:31:15 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/07 17:35:52 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/13 17:14:43 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,11 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+
+/*
+int main()
+{
+	ft_putendl_fd("alex", 1);
+}
+*/
+//escreve uma string

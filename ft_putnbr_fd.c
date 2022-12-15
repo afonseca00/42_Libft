@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:48:10 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/07 19:02:23 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/13 17:13:06 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,11 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(n + '0', fd);
 }
+
+/*
+int main()
+{
+   ft_putnbr_fd(2147483647, 1);
+}
+*/
+//escreve um numero

@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:28:04 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/08 15:29:39 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 23:15:02 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,3 +58,16 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
+
+/*
+int main()
+{
+   int nmb = 89;
+   char *val = ft_itoa(nmb);
+   printf("number %d\n", nmb);
+   printf("string %s\n", val);
+   return 0;
+}
+*/
+//transforma int em  string
+//escrevendo de tras para a frente

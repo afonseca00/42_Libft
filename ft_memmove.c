@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 15:53:57 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/04 07:50:56 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 19:26:15 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,16 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+/*
+int main()
+{
+    char dest[10] = "ola";
+	char src[10] = "tudo bem";
+	ft_memmove(dest, src, 10);
+	printf("%s\n", src);
+}
+*/
+//move o conteudo de "src" para "dest"
+//ou
+//move o conteudo de "dest" para "src" começa do fim para o inicio

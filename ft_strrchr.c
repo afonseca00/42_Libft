@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 18:03:43 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/02 18:26:14 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 19:42:52 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,17 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
+
+/*
+int main () {
+   const char str[] = "ola somos os mais craques daqui";
+   const char ch = 'a';
+   char *result;
+
+  result = ft_strrchr(str, ch);
+  printf(" %s\n", result);
+  return(0);
+}
+*/
+//retorna a palavra a partir do ultimo caracter encontrado
+//neste caso o a

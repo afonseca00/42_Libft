@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 17:41:07 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/07 17:46:15 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/14 23:19:02 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,11 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+
+/*
+int main()
+{
+	ft_putendl_fd("alex", 1);
+}
+*/
+//escreve o que lhe pedimos e uma quebra de linha

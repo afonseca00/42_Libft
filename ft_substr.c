@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 12:55:49 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/07 15:31:22 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/11 15:28:32 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new_str[i] = '\0';
 	return (new_str);
 }
+
+/*
+int main()
+{
+   char str[20] = "ola tudo bem";
+   char *result = ft_substr(str, 4, 4);
+   printf("The  result is %s\n", result);
+   return 0;
+}
+*/
+//vai criar uma substr desde start ate ao len 
+//elimina tudo o que esta antes e depois e acrescenta 1 a len que é \0

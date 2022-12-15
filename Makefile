@@ -6,12 +6,12 @@
 #    By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 15:31:29 by afonseca          #+#    #+#              #
-#    Updated: 2022/11/17 05:31:20 by afonseca         ###   ########.fr        #
+#    Updated: 2022/12/14 16:00:39 by afonseca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-SRC = ft_isalpha\
+SRC = 	ft_isalpha\
 		ft_isdigit\
 		ft_isalnum\
 		ft_isascii\
@@ -37,6 +37,7 @@ SRC = ft_isalpha\
 		ft_substr\
 		ft_strjoin\
 		ft_strtrim\
+		ft_split\
 		ft_itoa\
 		ft_strmapi\
 		ft_striteri\
@@ -44,7 +45,7 @@ SRC = ft_isalpha\
 		ft_putstr_fd\
 		ft_putendl_fd\
 		ft_putnbr_fd\
-		ft_split\
+		
 		
 BONUS = ft_lstnew\
 		ft_lstadd_front\

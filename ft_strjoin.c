@@ -6,7 +6,7 @@
 /*   By: afonseca <afonseca@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 15:27:08 by afonseca          #+#    #+#             */
-/*   Updated: 2022/11/07 15:35:49 by afonseca         ###   ########.fr       */
+/*   Updated: 2022/12/11 15:37:39 by afonseca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,16 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new_str[i] = '\0';
 	return (new_str);
 }
+
+/*
+int main()
+{
+   char s1[10] = "ola ";
+   char s2[10] = "como estas";
+   char *result = ft_strjoin(s1, s2);
+   printf(" %s\n", result);
+   return 0;
+}
+*/
+//recebe duas strings e faz a juncao de ambas dentro de malloc
+//e retorn o malloc
